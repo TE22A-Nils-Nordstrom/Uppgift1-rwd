@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    margin: 1%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 3%;
+    font-size: 250%;
+    width: 100%;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    border: 3px solid black;
+    border-radius: 3px;
+    min-width: 15%;
+    min-height: 350px;
+} 
+
+a{
+    margin: 1%;
+    text-align: center;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+    justify-content: center;
+    border: 3px solid black;    
+    border-radius: 3px;
+    width: 80%;
+    min-height: 350px;
+}
+
+article{
+    border: 3px solid black;
+    border-radius: 3px;
+    margin: 1%;
+    text-align: center;
+    width: 30%;
+}
+
+footer{
+    border: 3px solid black;
+    border-radius: 3px;
+    margin: 1%;
+    min-height: 75px;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
