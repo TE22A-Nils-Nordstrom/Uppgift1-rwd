@@ -19,8 +19,8 @@ nav{
     margin: 1%;
     border: 3px solid black;
     border-radius: 3px;
-    min-width: 15%;
-    min-height: 350px;
+    width: 100%;
+    min-height: 10%;
 } 
 
 a{
@@ -36,7 +36,7 @@ main{
     justify-content: center;
     border: 3px solid black;    
     border-radius: 3px;
-    width: 80%;
+    width: 100%;
     min-height: 350px;
 }
 
@@ -45,7 +45,7 @@ article{
     border-radius: 3px;
     margin: 1%;
     text-align: center;
-    width: 30%;
+    width: 100%;
 }
 
 footer{
@@ -53,8 +53,31 @@ footer{
     border-radius: 3px;
     margin: 1%;
     min-height: 75px;
-    min-width: 100%;
+    width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 600px) {
+    nav {
+        width: 8%;
+        
+    }
+    main{
+        width: 85%;
+    }
+ }
+
+ @media screen and (min-width: 1078PX) {
+    nav {
+        width: 15%;
+        height: 450px;        
+    }
+    main{
+        width: 80%;
+    }
+    article{
+        width: 30%;
+    }
+ }
